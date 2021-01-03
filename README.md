@@ -16,6 +16,6 @@ creates directorys: ~/.config/systemd/user and ~/.scripts
 
 please note if you change the directorys you will have to edit the systemD service´s "ExecStart="
 
-moves the script into ~/.scriptes and the service + timer into ~/.config/systemd/user
+moves both script´s into ~/.scriptes and the service + timer into ~/.config/systemd/user
 
 after that it will start start the systemD timer as user
