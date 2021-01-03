@@ -1,0 +1,6 @@
+[Unit]
+Description=Tests your internet connection via speedtest-cli every minute and documents it into a csv
+
+[Service]
+Type=oneshot
+ExecStart=/home/$USER/scripts/monitor.sh
