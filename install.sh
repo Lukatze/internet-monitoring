@@ -8,10 +8,10 @@ mkdir -p ~/.scripts
 
 sed -i 's/$USER/'"$USER"'/g' monitor.service #writes the correct User into the service file
 
-mv monitor.sh ~/.scripts
-mv install.sh ~/.scripts
-mv monitor.service ~/.config/systemd/user/
-mv monitor.timer ~/.config/systemd/user/
+cp monitor.sh ~/.scripts
+cp install.sh ~/.scripts
+cp monitor.service ~/.config/systemd/user/
+cp monitor.timer ~/.config/systemd/user/
 
 echo "created dirs and moved everything into place"
 
