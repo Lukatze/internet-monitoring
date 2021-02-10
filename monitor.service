@@ -3,4 +3,4 @@ Description=Tests your internet connection via speedtest-cli every minute and do
 
 [Service]
 Type=oneshot
-ExecStart=/home/$USER/scripts/monitor.sh
+ExecStart=/home/$USER/.scripts/monitor.sh
